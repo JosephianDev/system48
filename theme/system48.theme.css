@@ -1,17 +1,19 @@
 /**
- * @name system24
+ * @name system48
  * @description a tui-style discord theme.
- * @author refact0r
- * @version 2.0.0
- * @invite nz87hXyvcy
- * @website https://github.com/refact0r/system24
- * @source https://github.com/refact0r/system24/blob/master/theme/system24.theme.css
- * @authorId 508863359777505290
- * @authorLink https://www.refact0r.dev
+ * @author jojis
+ * @version 1.0.0
+ * @invite tqvAxXGJpY
+ * @website https://github.com/JosephianDev/system48
+ * @source https://github.com/JosephianDev/system48/blob/master/theme/system48.theme.css
+ * @authorId 689880405003993103
 */
 
 /* import theme modules */
 @import url('https://refact0r.github.io/system24/build/system24.css');
+
+@import url('https://B4T3S.github.io/DiscordDarkNeon/css/hideUsers.css');
+/* This import adds the collapsible user-list. Remove it/comment it out to disable that feature */
 
 body {
     /* font, change to '' for default discord font */
