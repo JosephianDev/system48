@@ -10,7 +10,7 @@
 */
 
 /* import theme modules */
-@import url('https://github.com/JosephianDev/corals-discord-theme/build/corals.ds.theme.css.css');
+@import url('https://github.com/JosephianDev/corals-discord-theme/build/corals.ds.theme.css');
 
 body {
     /* font, change to '' for default discord font */
