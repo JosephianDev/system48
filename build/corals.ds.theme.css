@@ -2887,3 +2887,79 @@ body {
     }
 }
 
+@property --hidden-user-width {
+  syntax: "<length>";
+  inherits: true;
+  initial-value: 50px;
+}
+
+@property --user-width {
+  syntax: "<length>";
+  inherits: true;
+  initial-value: 264px;
+}
+
+:root {
+  --hidden-user-width: 50px;
+  --user-width: 264px;
+  --transition-time: 0.25s;
+}
+
+/* collapsed state */
+.container_c8ffbb,
+.membersWrap_c8ffbb {
+  transition-duration: var(--transition-time);
+  justify-content: unset;
+  min-width: unset;
+  width: var(--hidden-user-width);
+}
+
+/* hide groups */
+.membersGroup_c8ffbb {
+  height: 0px !important;
+  padding: 0px !important;
+  overflow: hidden;
+  transition-duration: var(--transition-time);
+}
+
+/* hide inner container */
+.container__0f2e8 {
+  height: 0px;
+  overflow: hidden;
+  padding: 0px;
+  border: none !important;
+  transition-duration: var(--transition-time);
+}
+
+/* hover expand */
+.container_c8ffbb:hover,
+.membersWrap_c8ffbb:hover {
+  width: var(--user-width);
+}
+
+/* restore content on hover */
+.container_c8ffbb:hover .membersGroup_c8ffbb {
+  height: auto !important;
+  padding-top: 12px !important;
+  padding-bottom: 6px !important;
+}
+
+.container_c8ffbb:hover .container__0f2e8 {
+  height: 48px;
+  padding: 8px;
+}
+
+/* inner padding animation */
+.childContainer__91a9d {
+  padding-left: 0px;
+  transition-duration: var(--transition-time);
+}
+
+.container_c8ffbb:hover .childContainer__91a9d {
+  padding-left: 8px;
+}
+
+/* profile panel animation */
+.profilePanel-2PWEok {
+  transition-duration: var(--transition-time);
+}

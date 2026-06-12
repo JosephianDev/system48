@@ -12,9 +12,6 @@
 /* import theme modules */
 @import url('https://github.com/JosephianDev/corals-discord-theme/build/corals.ds.theme.css.css');
 
-@import url('https://B4T3S.github.io/DiscordDarkNeon/css/hideUsers.css');
-/* This import adds the collapsible user-list. Remove it/comment it out to disable that feature */
-
 body {
     /* font, change to '' for default discord font */
     --font: 'DM Mono'; /* change to '' for default discord font */
