@@ -11,19 +11,12 @@
         border-radius: 0 !important;
     }
 
-    /* USER AVATARS ONLY */
-    [class*="avatar"] img,
-    [class*="avatar"] svg,
-    [class*="Avatar"] img {
-        border-radius: 50% !important;
-    }
-
     .svg_cc5dd2 > mask,
     .svg__44b0c > rect,
     .svg__44b0c > circle,
     .svg__44b0c > g,
     .svg__44b0c rect[mask='url(#:rhi:)'],
-    .status_a423bd {
+    .avatar__20a53 .status_a423bd {
         display: none;
     }
 
