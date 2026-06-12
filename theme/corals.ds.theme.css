@@ -4,13 +4,13 @@
  * @author jojis
  * @version 1.0.0
  * @invite tqvAxXGJpY
- * @website https://github.com/JosephianDev/corals-discord-theme
- * @source https://github.com/JosephianDev/corals-discord-theme/blob/master/theme/corals.ds.theme.css
+ * @website https://github.com/JosephianDev/CoralsDiscordTheme
+ * @source https://github.com/JosephianDev/CoralsDiscordTheme/blob/main/theme/corals.ds.theme.css
  * @authorId 689880405003993103
 */
 
 /* import theme modules */
-@import url('https://github.com/JosephianDev/corals-discord-theme/build/corals.ds.theme.css');
+@import url('https://github.com/JosephianDev/CoralsDiscordTheme/blob/main/build/corals.ds.theme.css');
 
 body {
     /* font, change to '' for default discord font */
