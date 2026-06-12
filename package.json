@@ -5,7 +5,7 @@
 		"dev": "node scripts/dev.js",
 		"build": "node scripts/build.js"
 	},
-	"author": "refact0r",
+	"author": "jojis",
 	"license": "MIT",
 	"devDependencies": {
 		"chokidar": "^3.6.0",
